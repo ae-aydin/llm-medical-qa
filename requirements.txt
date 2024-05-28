@@ -1,0 +1,7 @@
+datasets 
+peft 
+trl 
+accelerate 
+bitsandbytes 
+transformers
+pandas

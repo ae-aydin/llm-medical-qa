@@ -1,0 +1,12 @@
+{
+    "bnb_base": "ae-aydin/LLama-3-8B-Instruct-Medical-BNB-Base",
+    "adapter": "ae-aydin/Llama-3-8B-Instruct-Medical-QLoRA",
+    "system_prompt": "You are a medical assistant designed to provide accurate, reliable, and up-to-date medical information. Assist users with general medical inquiries, symptom explanations, medication details, health and wellness advice, first aid guidance, and mental health support. Ensure responses are clear, compact, and based on the latest medical guidelines. Always encourage users to consult healthcare professionals for diagnoses and treatment, maintain confidentiality, and prioritize user safety and privacy in all interactions.",
+    "examples": [
+        "What are the common symptoms of influenza and how can I differentiate it from a common cold?",
+        "Can you explain the potential side effects of taking amoxicillin and any precautions I should be aware of?",
+        "What are some effective lifestyle changes I can make to manage high blood pressure?",
+        "A woman with coronary artery disease is starting to go for a walk. As she begins, her heart rate accelerates from a resting pulse of 60 bpm until it reaches a rate of 120 bpm, at which point she begins to feel a tightening in her chest. She stops walking to rest and the tightening resolves. This has been happening to her consistently for the last 6 months. Which of the following is a true statement?? {'A': 'Increasing the heart rate increases the amount of time spent during each cardiac cycle', 'B': 'Increasing the heart rate decreases the relative amount of time spent during diastole', 'C': 'Perfusion of the myocardium takes place primarily during systole', 'D': 'Perfusion of the myocardium takes place equally throughout the cardiac cycle', 'E': 'This patient's chest pain is indicative of transmural ischemia'}",
+        "A 24-year-old woman recently noticed a mass in her left breast. The examination shows a 4-cm mass in the left upper quadrant. The mass is firm, mobile, and has well-defined margins. She complains of occasional tenderness. There is no lymphatic involvement. Mammography showed a dense lesion. What is the most likely cause?? {'A': 'Ductal carcinoma in situ (DCIS)', 'B': 'Fibroadenoma', 'C': 'Phyllodes tumor', 'D': 'Inflammatory carcinoma', 'E': 'Invasive ductal carcinoma (IDC)'}"
+    ]
+}
