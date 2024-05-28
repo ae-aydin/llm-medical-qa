@@ -12,6 +12,6 @@ How to use:
 from peft import PeftModel, PeftConfig
 from transformers import AutoModelForCausalLM
 
-base_model = AutoModelForCausalLM.from_pretrained("meta-llama/Meta-Llama-3-8B-Instruct-Medical-BNB-Base")
+base_model = AutoModelForCausalLM.from_pretrained("ae-aydin/Meta-Llama-3-8B-Instruct-Medical-BNB-Base")
 model = PeftModel.from_pretrained(base_model, "ae-aydin/Llama-3-8B-Instruct-Medical-QLoRA")
 ```
