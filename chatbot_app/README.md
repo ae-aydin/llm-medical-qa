@@ -1,5 +1,7 @@
 # Chatbot interface for the model
 
-How to use:
+* Does not support dialog history
+* Needs a huggingface read token `HF_TOKEN` inside `.env`
+* `pip install -r requirements.txt`
 
-`py app.py`
+How to use: `py app.py`
